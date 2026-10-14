@@ -1,0 +1,64 @@
+.container {
+  width: min(500px, 100%);
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 8px;
+  color: #6d28d9;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 25px;
+  color: #666;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #6d28d9;
+  outline-offset: 2px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 13px;
+  background: #6d28d9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5b21b6;
+}
